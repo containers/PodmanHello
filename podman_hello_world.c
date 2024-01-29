@@ -23,6 +23,6 @@ Project:   https://github.com/containers/podman\n\
 Website:   https://podman.io\n\
 Documents: https://docs.podman.io\n\
 YouTube:   https://youtube.com/c/podman\n\
-X/Twitter:   @Podman_io\n\
+X/Twitter: @Podman_io\n\
 Mastodon:  @Podman_io");
 }
