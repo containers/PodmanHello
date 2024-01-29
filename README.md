@@ -4,7 +4,7 @@
 
 ## Overview
 
-This directory contains the Containerfile and bash script necessary to create the
+This directory contains the Containerfile and source code necessary to create the
 "hello" podman image housed on quay.io under the Podman account in a public
 repository.  The image is public and can be pulled without credentials.
 
@@ -52,6 +52,12 @@ a local directory and issue these commands:
 podman build -t myhello .
 podman run myhello
 ```
+
+## Alternatives
+
+Alternative hello images are in the "shell" and "python" directories.
+
+They don't need a builder image, at the expense of a larger runtime.
 
 ## THANKS!
 

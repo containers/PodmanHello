@@ -1,0 +1,6 @@
+FROM docker.io/library/python:alpine
+LABEL maintainer="Podman Maintainers"
+LABEL artist="Máirín Ní Ḋuḃṫaiġ, Twitter:@mairin"
+LABEL io.containers.capabilities="sys_chroot"
+COPY podman_hello_world.py /usr/local/bin/podman_hello_world
+CMD ["/usr/local/bin/podman_hello_world"]
