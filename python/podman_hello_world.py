@@ -15,5 +15,7 @@ print(
 Project:   https://github.com/containers/podman
 Website:   https://podman.io
 Documents: https://docs.podman.io
-Twitter:   @Podman_io"""
+YouTube:   https://youtube.com/c/Podman
+X/Twitter: @Podman_io
+Mastodon:  @Podman_io"""
 )

@@ -43,7 +43,9 @@ podman run quay.io/podman/hello
 Project:   https://github.com/containers/podman
 Website:   https://podman.io
 Documents: https://docs.podman.io
-Twitter:   @Podman_io
+YouTube:   https://youtube.com/c/Podman
+X/Twitter: @Podman_io
+Mastodon:  @Podman_io
 ```
 To build the image yourself, copy the files from this directory into
 a local directory and issue these commands:
