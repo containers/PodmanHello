@@ -1,6 +1,6 @@
 //###
 //  ASCII art by the incomparable Máirín Duffy,
-//  duffy@redhat.com, Twitter: @mairin
+//  duffy@redhat.com, X/Twitter: @mairin
 //  January 2022
 //###
 
@@ -22,5 +22,7 @@ int main() {
 Project:   https://github.com/containers/podman\n\
 Website:   https://podman.io\n\
 Documents: https://docs.podman.io\n\
-Twitter:   @Podman_io");
+YouTube:   https://youtube.com/c/podman\n\
+X/Twitter:   @Podman_io\n\
+Mastodon:  @Podman_io");
 }
