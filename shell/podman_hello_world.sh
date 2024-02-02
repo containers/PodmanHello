@@ -17,5 +17,5 @@ Website:   https://podman.io
 Documents: https://docs.podman.io
 YouTube:   https://youtube.com/@Podman
 X/Twitter: @Podman_io
-Mastodon:  @Podman_io
+Mastodon:  @Podman_io@fosstodon.org
 EOF
