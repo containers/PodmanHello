@@ -21,6 +21,7 @@ int main() {
 \n\
 Project:   https://github.com/containers/podman\n\
 Website:   https://podman.io\n\
+Desktop:   https://podman-desktop.io\n\
 Documents: https://docs.podman.io\n\
 YouTube:   https://youtube.com/@Podman\n\
 X/Twitter: @Podman_io\n\

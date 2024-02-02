@@ -42,6 +42,7 @@ podman run quay.io/podman/hello
 
 Project:   https://github.com/containers/podman
 Website:   https://podman.io
+Desktop:   https://podman-desktop.io
 Documents: https://docs.podman.io
 YouTube:   https://youtube.com/@Podman
 X/Twitter: @Podman_io
