@@ -15,7 +15,7 @@ cat <<'EOF'
 Project:   https://github.com/containers/podman
 Website:   https://podman.io
 Documents: https://docs.podman.io
-YouTube:   https://youtube.com/c/Podman
+YouTube:   https://youtube.com/@Podman
 X/Twitter: @Podman_io
 Mastodon:  @Podman_io
 EOF

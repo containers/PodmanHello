@@ -22,7 +22,7 @@ int main() {
 Project:   https://github.com/containers/podman\n\
 Website:   https://podman.io\n\
 Documents: https://docs.podman.io\n\
-YouTube:   https://youtube.com/c/podman\n\
+YouTube:   https://youtube.com/@Podman\n\
 X/Twitter: @Podman_io\n\
 Mastodon:  @Podman_io");
 }
