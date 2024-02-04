@@ -46,6 +46,13 @@ jobs:
             ./Containerfile
           context: .
           archs: amd64, arm64, ppc64le, s390x
+          labels: |
+            org.opencontainers.image.title=hello image
+            org.opencontainers.image.source=https://raw.githubusercontent.com/${{ github.repository }}/${{ github.sha }}/Containerfile
+            org.opencontainers.image.url=https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}
+            org.opencontainers.image.documentation=https://github.com/${{ github.repository }}/blob/${{ github.sha }}/README.md
+            org.opencontainers.image.description=Hello world image with ascii art
+            org.opencontainers.image.revision=${{ github.sha }}
 
       - name: Echo Outputs
         run: |
