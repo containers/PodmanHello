@@ -22,6 +22,9 @@ on:
     branches:
       - main
   workflow_dispatch:
+  # also run it weekly at 2:00 a.m. system time on Sundays
+  schedule:
+    - cron: '0 2 * * 0'
 
 jobs:
   build:
