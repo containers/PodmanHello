@@ -1,8 +1,9 @@
-FROM docker.io/redhat/ubi9-minimal as builder
-RUN microdnf -y install gcc glibc-static
+FROM docker.io/fedora:39 as builder
+RUN yum install -y musl-gcc upx
 ADD podman_hello_world.c .
-RUN gcc -O2 -static -o podman_hello_world podman_hello_world.c
-
+RUN musl-gcc -Wl,-z,max-page-size=0x1000 -s -Wl,-z,norelro -Os -fdata-sections -ffunction-sections -static -o podman_hello_world podman_hello_world.c
+RUN strip --strip-all --remove-section=.comment podman_hello_world
+RUN upx podman_hello_world
 FROM scratch
 LABEL maintainer="Podman Maintainers"
 LABEL artist="Máirín Ní Ḋuḃṫaiġ, X/Twitter:@mairin"
