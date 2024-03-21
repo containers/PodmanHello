@@ -2,6 +2,7 @@ FROM docker.io/redhat/ubi9-minimal as builder
 RUN microdnf -y install gcc glibc-static
 ADD podman_hello_world.c .
 RUN gcc -O2 -static -o podman_hello_world podman_hello_world.c
+RUN strip podman_hello_world
 
 FROM scratch
 LABEL maintainer="Podman Maintainers"
